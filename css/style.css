@@ -8,10 +8,16 @@ button {
     padding: 0.8em 1.6em;
     border-radius: 5px;
     font-size: 1em;
+    outline: none;
+    color: #111122;
 }
 
 button:active {
     background: linear-gradient(#789abc, #ccddef);
+}
+
+button:hover {
+    color: #337799;
 }
 
 #div-numbers {
