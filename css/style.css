@@ -1,0 +1,31 @@
+html, body {
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+button {
+    background: linear-gradient(#abcdef, #eeefff);
+    padding: 0.8em 1.6em;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button:active {
+    background: linear-gradient(#789abc, #ccddef);
+}
+
+#div-numbers {
+    margin-bottom: 1em;
+}
+
+.number {
+    display: inline-block;
+    width: 1.4em;
+    height: 1.4em;
+    padding: 1em;
+    margin: 4px;
+    text-align: center;
+    border-radius: 100%;
+    border: 1px solid #203050;
+    background: #eef8ff;
+};
